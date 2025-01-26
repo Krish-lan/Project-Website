@@ -1,0 +1,278 @@
+
+#box1 { 
+    display:flex ; 
+    align-items:center; 
+    position:sticky; 
+}
+
+#searcher2 { 
+   border:3px solid black; 
+   height:25vh; 
+   width:25vw; 
+   box-shadow: 3px 3px 3px 3px;
+} 
+
+.searcher3 { 
+    background-color: antiquewhite;
+    opacity: 0.8;
+    border:3px solid black; 
+    border-radius:8px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:490px; 
+    width:300px;
+}
+
+nav{ 
+    color:black; 
+    background-color:beige;
+    position:sticky;  
+    width:100%; 
+    gap:28%;
+    border:3px solid purple; 
+}
+#b5 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+a { 
+    text-decoration:none; 
+    color:black;
+}
+
+body { 
+    background-image: url("https://static.fibre2fashion.com/Newsresource/images/288/pre-pitti-image-small_299814.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    height: 100vh;
+}
+
+.box1 a{ 
+    gap:10%; 
+}
+
+footer { 
+    text-align:center
+}
+
+.container{
+    display:flex; 
+    justify-content: center;
+    align-items:center; 
+    color:black;  
+    font-family:'Times New Roman', Times, serif;  
+    font-size: 250%;
+    font-weight: bolder;
+    background-color:rgba(245, 245, 245,0.5); 
+    box-shadow:3px 3px 3px 3px; 
+
+} 
+
+.code{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    height:30px;
+    width:30px;
+    border:2px solid black; 
+    border-radius: 50%; 
+}
+
+#searcher1{
+    display:inline-flex; 
+    justify-content: center;
+    align-items:center; 
+    gap:3%; 
+}
+
+.container1 { 
+    display:flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:3px solid black; 
+    background-color:antiquewhite;
+    box-shadow:3px 3px 3px 3px; 
+    opacity: 0.8;
+} 
+#b1 { 
+    text-align:center; 
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-weight: bolder;
+    color:white;
+    font-size: larger;
+    font-weight:800; 
+    height:35vh; 
+    width:25vw;  
+
+}
+#b2 { 
+    text-align:center; 
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-weight: bold;
+    color:white; 
+    font-size: medium;
+    font-weight:600; 
+    height:35vh; 
+    width:25vw;  
+
+}
+
+.searcher { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+    opacity: 0.8;
+    border:3px solid black; 
+    height:35vh; 
+    width:30vw; 
+    box-shadow:3px 3px 3px 3px; 
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-weight: bold;
+    font-size: medium;
+    font-weight:600; 
+    border-radius:5px; 
+}
+
+.container3 { 
+    text-decoration: none;
+    flex-direction: column;
+    height:100%; 
+    width:100px; 
+    transition: all;
+}
+a{
+    transition: transform 1s ease;
+}
+a:hover{
+    transform:scale(2);
+}
+
+.d1 { 
+    display:flex ; 
+    align-items:center; 
+    position:sticky; 
+    background-color: white;
+
+}
+
+.product1 { 
+    display: flex;
+    justify-content: left;
+}
+#q1 { 
+    border:2px solid black; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product2 { 
+    display: flex;
+    justify-content: left;
+}
+#q2 { 
+    border:2px solid black; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product3 { 
+    display: flex;
+    justify-content: left;
+}
+#q3 { 
+    border:2px solid black; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product4 { 
+    display: flex;
+    justify-content: left;
+}
+#q4 { 
+    border:2px solid black; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.product5 { 
+    display: flex;
+    justify-content: left;
+}
+#q5 { 
+    border:2px solid black; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product6 { 
+    display: flex;
+    justify-content: left;
+}
+#q6 { 
+    border:2px solid black; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product7 { 
+    display: flex;
+    justify-content: left;
+}
+#q7 { 
+    border:2px solid black; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product8 { 
+    display: flex;
+    justify-content: left;
+}
+#q8 { 
+    border:2px solid black; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
